@@ -1,0 +1,47 @@
+﻿빌드 시작: 2015-08-01 오후 2:06:33
+     1>2 노드의 "C:\cocos2d-x\ColorSlide\proj.win32\ColorSlide.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\cocos2d-x\ColorSlide\cocos2d\cocos\2d\..\..\cocos\audio\include" /I"C:\cocos2d-x\ColorSlide\cocos2d\cocos\2d\..\..\external" /I"C:\cocos2d-x\ColorSlide\cocos2d\cocos\2d\..\..\external\chipmunk\include\chipmunk" /I"C:\cocos2d-x\ColorSlide\cocos2d\cocos\2d\..\..\extensions" /I..\Classes /I.. /I"C:\cocos2d-x\ColorSlide\cocos2d\cocos\2d\..\..\cocos\editor-support" /I"C:\cocos2d-x\ColorSlide\cocos2d\cocos\2d\..\..\cocos" /I"C:\cocos2d-x\ColorSlide\cocos2d\cocos\2d\..\..\cocos\platform" /I"C:\cocos2d-x\ColorSlide\cocos2d\cocos\2d\..\..\cocos\platform\desktop" /I"C:\cocos2d-x\ColorSlide\cocos2d\cocos\2d\..\..\external\glfw3\include\win32" /I"C:\cocos2d-x\ColorSlide\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\BlockBoard.cpp ..\Classes\GameScene.cpp
+         BlockBoard.cpp
+         GameScene.cpp
+     1>c:\cocos2d-x\colorslide\cocos2d\cocos\base\ccutf8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\BlockBoard.cpp)
+     1>c:\cocos2d-x\colorslide\cocos2d\cocos\base\ccutf8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\GameScene.cpp)
+     1>c:\cocos2d-x\colorslide\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\GameScene.cpp)
+     1>c:\cocos2d-x\colorslide\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\BlockBoard.cpp)
+     1>c:\cocos2d-x\colorslide\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\BlockBoard.cpp)
+     1>c:\cocos2d-x\colorslide\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\GameScene.cpp)
+     1>c:\cocos2d-x\colorslide\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\GameScene.cpp)
+     1>c:\cocos2d-x\colorslide\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\BlockBoard.cpp)
+     1>c:\cocos2d-x\colorslide\classes\blockboard.cpp(114): warning C4305: '-=' : 'double'에서 'float'(으)로 잘립니다.
+     1>c:\cocos2d-x\colorslide\cocos2d\cocos\ui\uihelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (..\Classes\GameScene.cpp)
+       PreLinkEvent:
+         if not exist "C:\cocos2d-x\ColorSlide\proj.win32\Debug.win32\" mkdir "C:\cocos2d-x\ColorSlide\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\cocos2d-x\ColorSlide\cocos2d\cocos\2d\..\..\external\websockets\prebuilt\win32\*.*" "C:\cocos2d-x\ColorSlide\proj.win32\Debug.win32\"
+         :VCEnd
+         2개 파일이 복사되었습니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\cocos2d-x\ColorSlide\proj.win32\Debug.win32\ColorSlide.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\cocos2d-x\ColorSlide\proj.win32\Debug.win32\\" /LIBPATH:"C:\cocos2d-x\ColorSlide\proj.win32\Debug.win32\\" /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" opengl32.lib glew32.lib libzlib.lib libpng.lib libjpeg.lib libtiff.lib libwebp.lib libiconv.lib glfw3.lib freetype250.lib winmm.lib ws2_32.lib libchipmunk.lib libbox2d.lib libSpine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\cocos2d-x\ColorSlide\proj.win32\Debug.win32\ColorSlide.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\cocos2d-x\ColorSlide\proj.win32\Debug.win32\ColorSlide.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\Block.obj
+         Debug.win32\BlockBoard.obj
+         Debug.win32\GameScene.obj
+         Debug.win32\GameSharing.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\MyCheckBox.obj
+         Debug.win32\MyMacro.obj
+         Debug.win32\PauseLayer.obj
+         Debug.win32\ResultScene.obj
+         Debug.win32\SpeechBubble.obj
+         Debug.win32\SplashScene.obj
+         Debug.win32\TitleScene.obj
+         Debug.win32\TransitionSlideBounce.obj
+         Debug.win32\main.obj
+         "C:\cocos2d-x\ColorSlide\proj.win32\Debug.win32\libcocos2d.lib"
+         "C:\cocos2d-x\ColorSlide\proj.win32\Debug.win32\libSpine.lib"
+         "C:\cocos2d-x\ColorSlide\proj.win32\Debug.win32\libbox2d.lib"
+         ColorSlide.vcxproj -> C:\cocos2d-x\ColorSlide\proj.win32\Debug.win32\ColorSlide.exe
+     1>"C:\cocos2d-x\ColorSlide\proj.win32\ColorSlide.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:40.23
